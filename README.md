@@ -99,7 +99,8 @@ Sample of Sal By Role Size ref:https://github.com/chan-edm/README/blob/main/Imag
 7. Rename the merged column as "State Full Name"  
 8. Remove nulls and blanks  
 
-Sample of states mapping: https://github.com/chan-edm/README/blob/main/Images/7.png
+Sample of states mapping: 
+![picture](https://github.com/chan-edm/README/blob/main/Images/7.png)
 
 ### Step 12: Group by State  
 1. Create a reference of raw data → Rename it as "Sal By State ref"  
