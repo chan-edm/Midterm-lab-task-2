@@ -69,7 +69,7 @@ Sample raw data:![image](https://github.com/chan-edm/README/blob/main/Images/1.p
 2. Copy and save the code in your portfolio  
 
 Sample of clean data
-![image](:https://github.com/chan-edm/README/blob/main/Images/2.png)
+![image](https://github.com/chan-edm/README/blob/main/Images/2.png)
 
 ### Step 10: Reshape and Group Data  
 #### Group by Role Type  
