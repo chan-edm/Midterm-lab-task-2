@@ -101,7 +101,8 @@ Sample of Sal By Role Size ref:![Image](https://github.com/user-attachments/asse
 8. Remove nulls and blanks  
 
 Sample of states mapping: 
-![Image](https://github.com/user-attachments/assets/8a5ff6de-6954-4d80-8e95-895642989f14)
+![Image](https://github.com/user-attachments/assets/4619427f-46c9-4683-8758-264f21368876)
+
 ### Step 12: Group by State  
 1. Create a reference of raw data → Rename it as "Sal By State ref"  
 2. Select only State Full Name, Min Salary, and Max Salary columns  
