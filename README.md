@@ -88,8 +88,7 @@ Sample of Sal By Role Type dup: ![image](https://github.com/chan-edm/README/blob
 4. Multiply values by 1000  
 5. Group rows by Size and get the average for Min and Max Salary  
 
-Sample of Sal By Role Size ref:![Image](https://github.com/user-attachments/assets/97952cbf-dbac-4a4a-b13d-2725e496d25b)
-
+Sample of Sal By Role Size ref:![Image](https://github.com/user-attachments/assets/45360f26-3c9c-429b-8bf4-40b2296c3cba)
 ### Step 11: Merge State Mapping  
 1. Click Unclean DS Jobs  
 2. Right-click in the Queries pane → New Query → Open Workbook State Mapping  
@@ -109,7 +108,8 @@ Sample of states mapping:
 4. Multiply values by 1000  
 5. Group rows by State Full Name and get the average for Min and Max Salary  
 
-Sample of Sal By State ref and sal by Size role dup:![Image](https://github.com/user-attachments/assets/45360f26-3c9c-429b-8bf4-40b2296c3cba)
+Sample of Sal By State ref and sal by Size role dup:![image](https://github.com/user-attachments/assets/fa5168ba-5308-421e-99db-b63dd403e8b0)
+
 ![image](https://github.com/user-attachments/assets/5a21c788-c7c2-43df-9005-f0ffdfe1fbf5)
 
 ### Step 13: View Query Dependencies  
