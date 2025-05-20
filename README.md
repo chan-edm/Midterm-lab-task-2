@@ -12,7 +12,7 @@ The dataset consists of multiple related tables, where cleaning techniques are a
 3. Go to Data → New Query → Open File → Text/CSV  
 4. Click Load and then Edit using Power Query Editor  
 
-Sample raw data:![image](https://github.com/chan-edm/README/blob/main/Images/1.png)
+Sample raw data:![Image](https://github.com/user-attachments/assets/48f4e0af-f1e1-452a-937b-a4c941a51f85)
 
 ### Step 2: Duplicate Raw Data  
 1. Right-click the dataset in the Queries pane  
@@ -69,7 +69,7 @@ Sample raw data:![image](https://github.com/chan-edm/README/blob/main/Images/1.p
 2. Copy and save the code in your portfolio  
 
 Sample of clean data
-![image](https://github.com/chan-edm/README/blob/main/Images/2.png)
+![Image](https://github.com/user-attachments/assets/213ea17a-9b43-46dd-9660-a0c276bf2aa6)
 
 ### Step 10: Reshape and Group Data  
 #### Group by Role Type  
@@ -88,7 +88,7 @@ Sample of Sal By Role Type dup: ![image](https://github.com/chan-edm/README/blob
 4. Multiply values by 1000  
 5. Group rows by Size and get the average for Min and Max Salary  
 
-Sample of Sal By Role Size ref:![image](https://github.com/chan-edm/README/blob/main/Images/4.png)
+Sample of Sal By Role Size ref:![Image](https://github.com/user-attachments/assets/97952cbf-dbac-4a4a-b13d-2725e496d25b)
 
 ### Step 11: Merge State Mapping  
 1. Click Unclean DS Jobs  
@@ -101,8 +101,7 @@ Sample of Sal By Role Size ref:![image](https://github.com/chan-edm/README/blob/
 8. Remove nulls and blanks  
 
 Sample of states mapping: 
-![Image](https://github.com/user-attachments/assets/6e557708-42af-408f-83e7-ff3f2f9144a8)
-
+![Image](https://github.com/user-attachments/assets/8a5ff6de-6954-4d80-8e95-895642989f14)
 ### Step 12: Group by State  
 1. Create a reference of raw data → Rename it as "Sal By State ref"  
 2. Select only State Full Name, Min Salary, and Max Salary columns  
@@ -110,12 +109,11 @@ Sample of states mapping:
 4. Multiply values by 1000  
 5. Group rows by State Full Name and get the average for Min and Max Salary  
 
-Sample of Sal By State ref and sal by Size role dup:![image](https://github.com/chan-edm/README/blob/main/Images/5.png)
-![image](https://github.com/chan-edm/README/blob/main/Images/6.png)
-
+Sample of Sal By State ref and sal by Size role dup:![Image](https://github.com/user-attachments/assets/45360f26-3c9c-429b-8bf4-40b2296c3cba)
+![image](https://github.com/user-attachments/assets/5a21c788-c7c2-43df-9005-f0ffdfe1fbf5)
 
 ### Step 13: View Query Dependencies  
 1. Go to View Menu → Click Dependencies  
 2. Check if all queries are correctly linked
 
-Sample of finish quires: ![image](https://github.com/chan-edm/README/blob/main/Images/8.png)
+Sample of finish quires: ![Image](https://github.com/user-attachments/assets/f005c8ee-4ef7-4ef5-a0af-65776e9855b3)
