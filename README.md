@@ -69,7 +69,7 @@ Sample raw data: https://github.com/chan-edm/README/blob/main/Images/1.png
 2. Copy and save the code in your portfolio  
 
 Sample of clean data
-![picture](:https://github.com/chan-edm/README/blob/main/Images/2.png)
+![image](:https://github.com/chan-edm/README/blob/main/Images/2.png)
 
 ### Step 10: Reshape and Group Data  
 #### Group by Role Type  
@@ -79,7 +79,7 @@ Sample of clean data
 4. Multiply values by 1000 (Numbers Column → Standard → Multiply → Type 1000)  
 5. Group rows by Role Type and get the average for Min and Max Salary  
 
-Sample of Sal By Role Type dup: https://github.com/chan-edm/README/blob/main/Images/3.png
+Sample of Sal By Role Type dup: ![image](https://github.com/chan-edm/README/blob/main/Images/3.png)
 
 #### Group by Company Size  
 1. Create a reference of raw data → Rename it as "Sal By Role Size ref"  
@@ -88,7 +88,7 @@ Sample of Sal By Role Type dup: https://github.com/chan-edm/README/blob/main/Ima
 4. Multiply values by 1000  
 5. Group rows by Size and get the average for Min and Max Salary  
 
-Sample of Sal By Role Size ref:https://github.com/chan-edm/README/blob/main/Images/4.png
+Sample of Sal By Role Size ref:![image](https://github.com/chan-edm/README/blob/main/Images/4.png)
 
 ### Step 11: Merge State Mapping  
 1. Click Unclean DS Jobs  
@@ -110,12 +110,12 @@ Sample of states mapping:
 4. Multiply values by 1000  
 5. Group rows by State Full Name and get the average for Min and Max Salary  
 
-Sample of Sal By State ref and sal by Size role dup: https://github.com/chan-edm/README/blob/main/Images/5.png
-:: https://github.com/chan-edm/README/blob/main/Images/6.png
+Sample of Sal By State ref and sal by Size role dup:![image](https://github.com/chan-edm/README/blob/main/Images/5.png)
+![image](https://github.com/chan-edm/README/blob/main/Images/6.png)
 
 
 ### Step 13: View Query Dependencies  
 1. Go to View Menu → Click Dependencies  
 2. Check if all queries are correctly linked
 
-Sample of finish quires: https://github.com/chan-edm/README/blob/main/Images/8.png
+Sample of finish quires: ![image](https://github.com/chan-edm/README/blob/main/Images/8.png)
