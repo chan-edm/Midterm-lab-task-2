@@ -79,7 +79,7 @@ Sample of clean data
 4. Multiply values by 1000 (Numbers Column → Standard → Multiply → Type 1000)  
 5. Group rows by Role Type and get the average for Min and Max Salary  
 
-Sample of Sal By Role Type dup: ![Image](https://github.com/user-attachments/assets/c1f874e3-1aeb-4508-bb74-787aa3380c83)
+Sample of Sal By Role Type dup: ![Image](https://github.com/user-attachments/assets/bcc75017-ccae-47e7-a501-dbcff45dc619)
 
 #### Group by Company Size  
 1. Create a reference of raw data → Rename it as "Sal By Role Size ref"  
@@ -88,7 +88,8 @@ Sample of Sal By Role Type dup: ![Image](https://github.com/user-attachments/ass
 4. Multiply values by 1000  
 5. Group rows by Size and get the average for Min and Max Salary  
 
-Sample of Sal By Role Size ref:![Image](https://github.com/user-attachments/assets/45360f26-3c9c-429b-8bf4-40b2296c3cba)
+Sample of Sal By Role Size ref:![Image](https://github.com/user-attachments/assets/c1f874e3-1aeb-4508-bb74-787aa3380c83)
+
 ### Step 11: Merge State Mapping  
 1. Click Unclean DS Jobs  
 2. Right-click in the Queries pane → New Query → Open Workbook State Mapping  
