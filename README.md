@@ -79,7 +79,7 @@ Sample of clean data
 4. Multiply values by 1000 (Numbers Column → Standard → Multiply → Type 1000)  
 5. Group rows by Role Type and get the average for Min and Max Salary  
 
-Sample of Sal By Role Type dup: ![image](https://github.com/chan-edm/README/blob/main/Images/3.png)
+Sample of Sal By Role Type dup: ![Image](https://github.com/user-attachments/assets/c1f874e3-1aeb-4508-bb74-787aa3380c83)
 
 #### Group by Company Size  
 1. Create a reference of raw data → Rename it as "Sal By Role Size ref"  
