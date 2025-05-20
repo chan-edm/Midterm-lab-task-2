@@ -68,7 +68,8 @@ Sample raw data: https://github.com/chan-edm/README/blob/main/Images/1.png
 1. Go to Home Menu → Click Advanced Editor  
 2. Copy and save the code in your portfolio  
 
-Sample of clean data:https://github.com/chan-edm/README/blob/main/Images/2.png
+Sample of clean data
+![picture](:https://github.com/chan-edm/README/blob/main/Images/2.png)
 
 ### Step 10: Reshape and Group Data  
 #### Group by Role Type  
