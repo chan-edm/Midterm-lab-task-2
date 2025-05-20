@@ -12,7 +12,7 @@ The dataset consists of multiple related tables, where cleaning techniques are a
 3. Go to Data → New Query → Open File → Text/CSV  
 4. Click Load and then Edit using Power Query Editor  
 
-Sample raw data: https://github.com/chan-edm/README/blob/main/Images/1.png
+Sample raw data:![image](https://github.com/chan-edm/README/blob/main/Images/1.png)
 
 ### Step 2: Duplicate Raw Data  
 1. Right-click the dataset in the Queries pane  
