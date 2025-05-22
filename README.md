@@ -119,6 +119,5 @@ Sample of Sal By State ref and sal by Size role dup:![image](https://github.com/
 Sample of finish quires: ![Image](https://github.com/user-attachments/assets/f005c8ee-4ef7-4ef5-a0af-65776e9855b3)
 
 <a href="https://chan-edm.github.io/README/" class="btn">BACK TO PORTFOLIO</a>
-    <a href="http://chan-edm.github.io/Midterm-lab-task-2/" class="btn">CONTINUE TO LEARN</a>
-  </div>
-</section>
+    <a href="http://chan-edm.github.io/Midterm-lab-task-3/" class="btn">CONTINUE TO LEARN</a>
+  
