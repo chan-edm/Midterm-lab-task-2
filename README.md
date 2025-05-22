@@ -1,123 +1,58 @@
-# Midterm_Lab_Task2 – Data Cleaning and Transformation Using Power Query Editor
-
-This portfolio demonstrates the process of data cleaning and preparation using Power Query. 
-The dataset consists of multiple related tables, where cleaning techniques are applied to improve data quality and consistency before analysis.
-
-## Step-by-Step Process
-### Step 1: Download and Load Data  
-1. Download the dataset (Uncleaned_DS_jobs.csv)  
-2. Open Excel  
-3. Go to Data → New Query → Open File → Text/CSV  
-4. Click Load and then Edit using Power Query Editor  
-
-Sample raw data:![Image](https://github.com/user-attachments/assets/48f4e0af-f1e1-452a-937b-a4c941a51f85)
-
-### Step 2: Duplicate Raw Data  
-1. Right-click the dataset in the Queries pane  
-2. Select Duplicate  
-
-### Step 3: Clean Salary Data  
-1. Select the Salary Estimate column  
-2. Go to Transform Menu → Extract → Text Before Delimiter  
-3. Type "(" and click OK  
-4. Create two new columns: Min Salary and Max Salary  
-   - Select Salary Estimate column → Add Column Menu → Column from Examples → From Selections  
-   - Type the first min salary value and press Enter (all rows will auto-fill)  
-   - Rename the column to "Min Sal"  
-   - Repeat the process for Max Salary  
-
-### Step 4: Add Role Type Column  
-1. Go to Add Column Menu → Custom Column  
-2. Rename the column to "Role Type"  
-3. Use this logic:  
-   - If Job Title contains "Data Scientist" → Assign "Data Scientist"  
-   - If Job Title contains "Data Analyst" → Assign "Data Analyst"  
-   - If Job Title contains "Data Engineer" → Assign "Data Engineer"  
-   - If Job Title contains "Machine Learning" → Assign "Machine Learning Engineer"  
-   - Otherwise, assign "Other"  
-4. Change the column type to Text  
-
-### Step 5: Split Location Column  
-1. Select the Location column  
-2. Add a Custom Column with corrections:  
-   - If Location = "New Jersey" → Assign ", NJ"  
-   - If Location = "Remote" or "United States" → Assign ", Other"  
-   - If Location = "Texas" → Assign ", TX"  
-   - If Location = "California" → Assign ", CA"  
-3. Click OK, then select the new column  
-4. Go to Transform → Split Column → By Delimiter (comma ",")  
-5. Click OK  
-6. Rename the second split column to "State Abbreviations"  
-7. Check and replace incorrect values (e.g., "Anne Rundell" → "MA")  
-
-### Step 6: Split Size Column  
-1. Create two new columns: MinCompanySize and MaxCompanySize  
-2. Use the same method as Salary Estimate to split values  
-
-### Step 7: Handle Negative Values  
-1. Filter out -1s from the Competitors column  
-2. Filter out 0s from the Revenues column  
-3. Remove -1s from the Industry column  
-
-### Step 8: Clean Company Names  
-1. Remove any extra characters or ratings after company names  
-
-### Step 9: Copy Cleaning Steps as Proof  
-1. Go to Home Menu → Click Advanced Editor  
-2. Copy and save the code in your portfolio  
-
-Sample of clean data
-![Image](https://github.com/user-attachments/assets/213ea17a-9b43-46dd-9660-a0c276bf2aa6)
-
-### Step 10: Reshape and Group Data  
-#### Group by Role Type  
-1. Duplicate the raw data → Rename it as "Sal By Role Type dup"  
-2. Select only Role Type, Min Salary, and Max Salary columns  
-3. Change Min and Max Salary type to currency  
-4. Multiply values by 1000 (Numbers Column → Standard → Multiply → Type 1000)  
-5. Group rows by Role Type and get the average for Min and Max Salary  
-
-Sample of Sal By Role Type dup: ![Image](https://github.com/user-attachments/assets/bcc75017-ccae-47e7-a501-dbcff45dc619)
-
-#### Group by Company Size  
-1. Create a reference of raw data → Rename it as "Sal By Role Size ref"  
-2. Select only Size, Min Salary, and Max Salary columns  
-3. Change Min and Max Salary type to currency  
-4. Multiply values by 1000  
-5. Group rows by Size and get the average for Min and Max Salary  
-
-Sample of Sal By Role Size ref:![Image](https://github.com/user-attachments/assets/c1f874e3-1aeb-4508-bb74-787aa3380c83)
-
-### Step 11: Merge State Mapping  
-1. Click Unclean DS Jobs  
-2. Right-click in the Queries pane → New Query → Open Workbook State Mapping  
-3. Select the columns and click OK  
-4. Select Uncleaned DS Jobs query  
-5. Choose the State Abbreviation column in both queries  
-6. Click Merge → Click OK  
-7. Rename the merged column as "State Full Name"  
-8. Remove nulls and blanks  
-
-Sample of states mapping: 
-![Image](https://github.com/user-attachments/assets/4619427f-46c9-4683-8758-264f21368876)
-
-### Step 12: Group by State  
-1. Create a reference of raw data → Rename it as "Sal By State ref"  
-2. Select only State Full Name, Min Salary, and Max Salary columns  
-3. Change Min and Max Salary type to currency  
-4. Multiply values by 1000  
-5. Group rows by State Full Name and get the average for Min and Max Salary  
-
-Sample of Sal By State ref and sal by Size role dup:![image](https://github.com/user-attachments/assets/fa5168ba-5308-421e-99db-b63dd403e8b0)
-
-![image](https://github.com/user-attachments/assets/5a21c788-c7c2-43df-9005-f0ffdfe1fbf5)
-
-### Step 13: View Query Dependencies  
-1. Go to View Menu → Click Dependencies  
-2. Check if all queries are correctly linked
-
-Sample of finish quires: ![Image](https://github.com/user-attachments/assets/f005c8ee-4ef7-4ef5-a0af-65776e9855b3)
-
-<a href="https://chan-edm.github.io/README/" class="btn">BACK TO PORTFOLIO</a>
-    <a href="http://chan-edm.github.io/Midterm-lab-task-3/" class="btn">CONTINUE TO LEARN</a>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finals Lab Task 5</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Finals Lab Task 5</h1>
+    <p>Views, Stored Procedures, and Functions in MySQL</p>
+  </header>
+  <main>
+    <section>
+      <h2>1. Setup MySQL Workbench</h2>
+      <ul>
+        <li>Open XAMPP and start the MySQL server.</li>
+        <li>Connect MySQL Workbench to the server.</li>
+        <li>Execute practice queries using the democodes.sql file.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>2. Use Inventory Database</h2>
+      <p>Open the inventory.sql file to begin the tasks.</p>
+    </section>
+    <section>
+      <h2>3. Create Views</h2>
+      <ul>
+        <li>View to display vendor info and products with in-date from 2002 onward.</li>
+        <li>View for products priced between 100–150.</li>
+        <li>View to compute total price for products sold by specific vendors.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>4. Create Stored Procedure</h2>
+      <p>Procedure to update vendor name from 'Bryson, Inc.' to 'Bryson and Co'.</p>
+    </section>
+    <section>
+      <h2>5. Create Function</h2>
+      <p>Function that takes vendor code and state to display product details.</p>
+    </section>
+    <section>
+      <h2>6. Execute and Document</h2>
+      <p>Run the SQL and capture screenshots of commands and results.</p>
+    </section>
+    <section>
+      <h2>Sample Output</h2>
+      <img src="https://github.com/user-attachments/assets/46f1d0db-abfd-486b-88f8-c0e8dd3ec15d" alt="Sample Output 1">
+      <img src="https://github.com/user-attachments/assets/f549dbe1-afe5-498a-8edc-f016529cc559" alt="Sample Output 2">
+    </section>
+  </main>
+  <footer>
+    <a href="https://chan-edm.github.io/README/" class="btn">Back to Portfolio</a>
+    <a href="https://chan-edm.github.io/Final-Lab-Task-6/" class="btn">Continue to Learn</a>
+  </footer>
+</body>
+</html>
