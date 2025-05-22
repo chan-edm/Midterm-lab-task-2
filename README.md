@@ -1,6 +1,4 @@
-# Midterm-lab-task-2
-# [Midterm_Lab_Task2](https://github.com/user-attachments/files/19145615/Midterm_Lab_Task2.xlsx) – Data Cleaning and Transformation Using Power Query Editor
-
+# Midterm_Lab_Task2 – Data Cleaning and Transformation Using Power Query Editor
 
 This portfolio demonstrates the process of data cleaning and preparation using Power Query. 
 The dataset consists of multiple related tables, where cleaning techniques are applied to improve data quality and consistency before analysis.
@@ -120,5 +118,7 @@ Sample of Sal By State ref and sal by Size role dup:![image](https://github.com/
 
 Sample of finish quires: ![Image](https://github.com/user-attachments/assets/f005c8ee-4ef7-4ef5-a0af-65776e9855b3)
 
-
-[BACK TO PORTFOLIO](https://chan-edm.github.io/README/)
+<a href="https://chan-edm.github.io/README/" class="btn">BACK TO PORTFOLIO</a>
+    <a href="http://chan-edm.github.io/Midterm-lab-task-2/" class="btn">CONTINUE TO LEARN</a>
+  </div>
+</section>
